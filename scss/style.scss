@@ -1,0 +1,17 @@
+@import "variables";
+@import "normal";
+
+html {
+   font-size: 10px;
+   color: $basic;
+}
+
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+}
+
+h1.title {
+   font-size: 3em;
+   text-align: center;
+}
