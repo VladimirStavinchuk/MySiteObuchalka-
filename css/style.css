@@ -87,3 +87,9 @@ h1.title {
   font-size: 3em;
   text-align: center;
 }
+
+li {
+  background: #b5ebbc;
+  margin: 0.2em 0;
+  padding: 0.1em 0.5em;
+}
