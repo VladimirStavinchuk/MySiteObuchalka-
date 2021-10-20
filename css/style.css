@@ -93,11 +93,15 @@ body {
 }
 
 h1.title {
-  font-size: 3em;
+  display: block;
+  font-size: 2em;
+  text-transform: uppercase;
   text-align: center;
+  margin-top: 0.5em;
 }
 
 li {
+  font-size: 1.2em;
   background: #b5ebbc;
   margin: 0.2em 0;
   padding: 0.1em 0.5em;
@@ -106,7 +110,6 @@ li {
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  margin-left: 2em;
 }
 
 .nav-header {
