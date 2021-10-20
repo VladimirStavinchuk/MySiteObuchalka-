@@ -1,15 +1,8 @@
 @import "variables";
 @import "normal";
 
-html {
-   font-size: 10px;
+body {
    color: $basic;
-}
-
-.container {
-   max-width: 1080px;
-   margin: 0 auto;
-   margin-left: 2em;
 }
 
 h1.title {
@@ -21,4 +14,19 @@ li {
    background: rgb(181, 235, 188);
    margin: 0.2em 0;
    padding: 0.1em 0.5em;
+}
+
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+   margin-left: 2em;
+}
+
+.nav-header {
+   margin: 1em 0;
+
+   & img {
+      width: 2em;
+      margin-right: 0.9em;
+   }
 }

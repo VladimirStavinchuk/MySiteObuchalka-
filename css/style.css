@@ -35,7 +35,7 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 10px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -88,15 +88,8 @@ h6 {
 }
 
 /*--------------------*/
-html {
-  font-size: 10px;
+body {
   color: #0f1d03;
-}
-
-.container {
-  max-width: 1080px;
-  margin: 0 auto;
-  margin-left: 2em;
 }
 
 h1.title {
@@ -108,4 +101,18 @@ li {
   background: #b5ebbc;
   margin: 0.2em 0;
   padding: 0.1em 0.5em;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-left: 2em;
+}
+
+.nav-header {
+  margin: 1em 0;
+}
+.nav-header img {
+  width: 2em;
+  margin-right: 0.9em;
 }
